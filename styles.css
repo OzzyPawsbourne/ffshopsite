@@ -255,6 +255,7 @@ a[href]:link, a[href]:visited {
     background: url(assets/image/orderbackground.png);
     background-size: 100% 100%;
     width: 100%;
+    height: 440px;
 }
 
 .form {
