@@ -254,7 +254,7 @@ a[href]:link, a[href]:visited {
 
 
 .order_banner {
-    background: url(assets/image/orderbackground.png) no-repeat center;
+    width: 100%;
 }
 
 .form_display {
