@@ -253,7 +253,7 @@ a[href]:link, a[href]:visited {
 
 
 .order_form_container {
-    background: url(assets/image/orderbackground.png);
+    background: url(assets/image/orderbackground.png) no-repeat center;
     background-size: contain;
     width: 100%;
 }
