@@ -1,0 +1,269 @@
+body{
+    text-align: center
+}
+
+.title {
+    color: #5C6AC4;
+}
+
+a[href]:link, a[href]:visited {
+    text-decoration: none;
+}
+
+.order_notif1 {
+    background-color: #fcbf16;
+    color: black;
+    height: 40px;
+    width: 120px;
+    border: 2px solid black;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    right: 4px;
+}
+
+.order_notif1:link, order_notif1:visited  {
+    text-decoration: none;
+}
+.nav_bar_row {
+    margin-top: -8px;
+    background: url(assets/image/wood.png);
+    overflow: hidden;
+    width: 100%;
+}
+
+.navigations1 {
+    float: left;
+    width: 33.33%;
+}
+
+.navigations2 {
+    float: right;
+    margin-top: 20px;
+    margin-right: 4%;
+    width: 8%;
+
+}
+
+
+.nav_bar_row:after {
+    border-bottom:2px solid black;
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+
+    
+.home_banner {
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    position: relative;
+}
+
+
+.hb_1,.hb_2 {
+    background-size: cover;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+}
+
+.hb_1 {
+    background: url(assets/image/main_food_banner1.jpg) no-repeat center;
+    animation: fade1 10s infinite;
+}
+
+.hb_2 {
+    background: url(assets/image/main_food_banner2.jpg) no-repeat center;
+    animation:fade2 10s infinite;
+}
+
+@keyframes fade1{ 0% {opacity:1} 25% {opacity: 1} 50% {opacity: 0} 75% {opacity: 0} 100% {opacity: 1}}
+@keyframes fade2{ 0% {opacity:0} 25% {opacity: 0} 50% {opacity: 1} 75% {opacity: 1} 100% {opacity: 0}}
+
+
+.message1 {
+    border-bottom: 2px solid black;
+    padding-bottom: 35px;
+}
+
+.row {
+    width: 100%;
+    text-align: center;
+}
+
+.column{
+    width: 25%;
+    padding: 1% 1% 1% 1%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 100, 0.2);
+    text-align: center;
+    font-family: arial;
+    font-size: 13px;
+    background-color:white;
+}
+
+.card button {
+    padding: 6px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.3;
+}
+
+.history {
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:40px;
+    width: 78%;
+    padding: 10px;
+    box-shadow: 5px 10px 18px 10px #888888;
+}
+
+
+
+
+
+
+.footer {
+    background: url(assets/image/wood.png);
+    overflow: hidden;
+    width: 100%;
+    height: 160px;
+    border-top: 2px solid black;
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+.about {
+    position: relative
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.about_info {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    position: absolute;
+    bottom: 44%;
+    left: 10%;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.yt_iframe_container {
+    margin-top: 1%;
+    float: left;
+    margin-left: 8%;
+}
+
+.more_paragraph {
+    margin-right: 20%;
+}
+
+.about_paragraph {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 78%;
+    padding: 10px;
+    box-shadow: 5px 10px 18px 10px #888888;
+}
+
+.about_paragraph2 {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 78%;
+    padding: 10px;
+    box-shadow: 5px 10px 18px 10px #888888;
+}
+
+
+
+
+.categories {
+    overflow: auto;
+    width: 100%;
+}
+
+.category {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    float: left;
+    width: 12%;
+}
+
+
+
+
+
+
+.food_item {
+    border-top: 10px solid #8b817f;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+    float: left;
+    width: 50%;
+}
+
+.food_item * {
+    
+    float: left;
+}
+
+.picture {
+    height: 200px;
+    width: 30%;
+}
+
+.description {
+    padding-left: 20px;
+    width: 40%;
+}
+
+
+
+
+.order_banner {
+    background: url(assets/image/orderbackground.png);
+    background-size: contain;
+    width: 100%;
+}
+
+.form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+
