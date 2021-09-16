@@ -251,17 +251,7 @@ a[href]:link, a[href]:visited {
 }
 
 
-.order_form_container {
-    background: url(assets/image/orderbackground.png);
-    background-size: 100% 100%;
-    width: 100%;
-    overflow: hidden;
-}
 
-.orderform {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 
 
